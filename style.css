@@ -1,15 +1,16 @@
 .header-area {
     background-color: #E554731A;
     display: flex;
-    gap:100px;
+    gap: 100px;
     justify-content: space-between;
     align-items: center;
     padding: 30px 30px 0 150px;
-    margin-bottom: 100px;
     ;
 }
-.header-area img{
-    width:500px;
+
+.header-area img {
+    width: 500px;
+    border-top: ;
 }
 
 body {
@@ -23,8 +24,8 @@ body {
     font-weight: 800;
     margin-bottom: 15px;
 }
-.header-content{
-}
+
+.header-content {}
 
 .header-des {
     color: rgba(39, 39, 39, 0.60);
@@ -42,4 +43,61 @@ body {
     color: #FFF;
     font-size: 15px;
     font-weight: 700;
+}
+
+.feature-area {
+    padding: 50px 140px;
+    
+}
+
+.feature-title {
+    color: #272727;
+    text-align: center;
+    font-size: 30px;
+    font-weight: 800;
+    margin-bottom: 0;
+}
+
+.feature-des {
+    color: rgba(39, 39, 39, 0.60);
+    text-align: center;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.box-contains {
+    display: flex;
+    margin-top: 30px;
+    justify-content: space-between;
+}
+
+.box-1 {
+    border-radius: 300px 300px 0px 0px;
+    background: rgba(167, 33, 98, 0.15);
+    padding: 100px 30px 0 30px;
+    height: 300px;
+    width: 200px;
+
+}
+
+.box-2 {
+    border-radius: 300px 300px 0px 0px;
+    background: rgba(5, 151, 160, 0.15);
+    padding: 100px 30px 0 30px;
+    height: 300px;
+    width: 200px;
+}
+.box-3 {
+    
+    border-radius: 300px 300px 0px 0px;
+    background: rgba(71, 125, 17, 0.15);
+    padding: 100px 30px 0 30px;
+    height: 300px;
+    width: 200px;
+}
+.box-item{
+    margin-right: 30px;
+    text-align: center;
+    
+    
 }
