@@ -202,12 +202,14 @@ body {
     background-size: cover;
     background-position: center;
     margin: 80px 140px;
-    height: 350px;;
+    height: 350px;
+    ;
 
 
 
 }
-.latest-contains{
+
+.latest-contains {
     padding-top: 50px;
 }
 
@@ -219,10 +221,36 @@ body {
 form input[type='email'] {
     border-radius: 8px;
     background: #FFF;
-    padding:15px 30px;
-    border:0;
+    padding: 15px 30px;
+    border: 0;
     width: 40%;
     margin-right: 10px;
-    
-     
+
+
+}
+
+.footer-area {
+    background: #111010;
+    padding:100px 0;
+    margin: 100px 0;
+}
+
+.foot-spa {
+    color: #FFFFFF;
+}
+
+.footer-des {
+    color: rgba(255, 255, 255, 0.90);
+    text-align: center;
+    font-size: 14px;
+    font-weight: 400;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.last {
+    color: rgba(255, 255, 255, 0.40);
+    text-align: center;
+    font-size: 12px;
+    font-weight: 400;
 }
